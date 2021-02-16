@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import { Navbar, Nav } from "react-bootstrap";
+import Scroll from 'react-scroll';
 
-import {Image} from "react-bootstrap";
 const Header = () => {
+
     return (
             <div>
                 <ul>
@@ -23,6 +25,29 @@ const Header = () => {
                         <Link to={'/contact'}>Contact Us</Link>
                     </li>
                 </ul>
+
+                <div>
+                    <Navbar fixed="top" >
+                        <Nav className="mr-auto">
+                            <Nav.Link href={'/past'}>
+                                Past
+                            </Nav.Link>
+                            <Nav.Link href={'/gallery'}>
+                                Gallery
+                            </Nav.Link>
+                            <Nav.Link onSelect={() => Scroll.scrollTo('homepage', {
+                                smooth: true,
+                                offset: -70,
+                                duration: 500,
+                            })}>
+                                FAQ
+                            </Nav.Link>
+                            <Nav.Link href={'/contact'}>
+                                Contact Us
+                            </Nav.Link>
+                        </Nav>
+                    </Navbar>
+                </div>
             </div>
         )
 }
