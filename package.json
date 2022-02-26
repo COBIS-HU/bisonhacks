@@ -1,7 +1,7 @@
 {
   "name": "bisonhacks",
   "version": "1.0.0",
-  "description": "Howard University School of Business Official Hacakthon Website",
+  "description": "Howard University School of Business Official Hackathon Website",
   "main": "index.js",
   "scripts": {
     "start": " http-server -c-1"
