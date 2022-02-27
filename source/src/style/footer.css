@@ -1,0 +1,15 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 50px;
+}
+.footer-image {
+    max-height: 75%;
+}
