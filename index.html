@@ -3,6 +3,14 @@
 
 <head>
     <title>BisonHacks 2022</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./img/meta/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+            name="description"
+            content="Howard University's Annual Hackathon"
+    />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,37 +21,47 @@
     <meta property="og:title" content="BisonHacks 2022" />
     <meta property="og:description" content="Howard University's Annual Hackathon" />
     <meta property="og:image" content="" />
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/meta/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/meta/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/meta/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/meta/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/meta/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/meta/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/meta/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/meta/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/meta/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./img/meta/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/meta/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/meta/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/meta/favicon-16x16.png">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" href="./img/meta/apple-touch-icon.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="./img/meta/manifest.json" />
 
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <!-- CSS Configuration -->
     <link href="css/custom.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/meta/favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-    <!-- Mapbox Map Resources -->
-    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
-    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
-
+    <!-- FONT Configuration -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
     <script type="application/ld+json">
         {
@@ -63,7 +81,7 @@
             "@context" : "http://schema.org",
             "@type" : "Event",
             "name" : "Bison Hacks",
-            "startDate" : "2022-03-19T18:30",
+            "startDate" : "2022-03-18T18:30",
             "location" : {
                 "@type" : "Place",
                 "name" : "Howard University",
@@ -79,563 +97,635 @@
             "image" : "http://bisonhacks.com/img/logo-word.png",
             "description" : "Howard University's Official Annual 24 Hour Hackathon",
             "url" : "http://bisonhacks.com",
-            "endDate": "2022-03-20T18:30:00Z",
+            "endDate": "2022-03-19T18:30:00Z",
             "organizer": "Bison Hacks",
             "offers" : {
                 "@type" : "Offer",
                 "price" : "0",
                 "priceCurrency": "USD",
                 "availability": "http://schema.org/InStock",
-                "validFrom": "2022-03-19T17:00:00Z"
+                "validFrom": "2019-03-30T17:00:00Z"
             }
         }
     </script>
 </head>
-<nav class="navbar navbar-custom navbar-fixed-top" id="navbar-custom" role="navigation">
-    <div class="container">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-            <i class="fa fa-bars fa-2x" style="color: #f7f7f7 !important;"></i>
-        </button>
-        <div class="collapse navbar-collapse navbar-main-collapse" style="background-color: #004AAD ">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="#info">Info</a>
-                </li>
-                <li>
-                    <a href="#faq">FAQ</a>
-                </li>
-                <li>
-                    <a href="#sponsors">Sponsors</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="./2020/index.html">Past Hackathon</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<!--<nav class="navbar navbar-custom navbar-fixed-top" id="navbar-custom" role="navigation">-->
+<!--    <div class="container">-->
+<!--        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">-->
+<!--            <i class="fa fa-bars fa-2x" style="color: #f7f7f7 !important;"></i>-->
+<!--        </button>-->
+<!--        <div class="collapse navbar-collapse navbar-main-collapse" style="background-color: #004AAD ">-->
+<!--            <ul class="nav navbar-nav">-->
+<!--                <li>-->
+<!--                    <a href="#info">Info</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#faq">FAQ</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#sponsors">Sponsors</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a class="page-scroll" href="./2020/index.html">Past Hackathon</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</nav>-->
 
-<body id="bisonhacks" data-target="#navbar-custom" data-offset="0">
+<div class="nav">
+    <ul>
+        <li>
+            <a href="#info">Info</a>
+        </li>
+        <li>
+            <a href="#faq">FAQ</a>
+        </li>
+        <li>
+            <a href="#sponsors">Sponsors</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="./2021/index.html">Past Hackathon</a>
+        </li>
+        <li style="float: right">
+        <a href="/">www.bisonhacks.com</a>
+        </li>
+    </ul>
+</div>
+<!--<body id="bisonhacks" data-target="#navbar-custom" data-offset="0">-->
+<body>
+<section id="intro">
+        <div class="col-md-6">
+            <div class="img-container">
+                <img src="img/Bison_Hacks_2022_Building.png">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="intro-info text-center">
+                <h1 style="text-transform: uppercase;" class="hack-name">Bison Hacks</h1>
+                <h3 class="school-name">Howard University School of Business</h3>
+                <h3 class="hack-date">March 18-19, 2022</h3>
+                <ul class="list-inline banner-social-buttons">
+                    <li><a href="http://bit.ly/2F32kR3"><i class="fab fa-twitter fa-3x" ></i></a></li>
+                    <li><a href="http://bit.ly/2soDfx2"><i class="fab fa-facebook fa-3x" ></i></a></li>
+                    <li><a href="http://bit.ly/2CjzSrd"><i class="fab fa-instagram fa-3x" ></i></a></li>
+                </ul>
+
+                <a class="btn btn-default btn-lg sign-up-btn" href="https://www.eventbrite.com/e/bisonhacks-2022-8th-annual-howard-university-hackathon-tickets-259068850907">Register</a>
+            </div>
+
+        </div>
+</section>
 
 <!-- Intro Header -->
-<section>
-    <div class="container">
+<!--<section>-->
+<!--    <div class="container">-->
 
-        <div class="row">
-            <div class="col-md-6">
-                <img class="img-responsive" src="img/Bison_Hacks_2022_Building.png">
-            </div>
-            <div  class="col-md-6 text-center information">
-                <br/>
-                <br/>
-                <br/>
-                <div class="text-center">
-                    <h1 style="text-transform: uppercase;">Bison Hacks</h1>
-                    <h3 style="text-transform: uppercase;">Howard University School of Business</h3>
-                    <h3 style="text-transform: uppercase;">March 18-19, 2022</h3>
-                    <br/>
-                    <ul class="list-inline banner-social-buttons">
-                        <li><a href="http://bit.ly/2F32kR3"><i class="fab fa-twitter fa-3x" style="color: #BF2632 !important;"></i></a></li>
-                        <li><a href="http://bit.ly/2soDfx2"><i class="fab fa-facebook fa-3x" style="color: #BF2632 !important;/"></i></a></li>
-                        <li><a href="http://bit.ly/2CjzSrd"><i class="fab fa-instagram fa-3x" style="color: #BF2632 !important;"></i></a></li>
-                    </ul>
-                    <br/>
-                    <a class="btn btn-default btn-lg sign-up-btn" href="https://www.eventbrite.com/e/bisonhacks-2022-7th-annual-howard-university-hackathon-tickets-140976152467">Register</a>
-                    <!--            <a class="btn btn-default btn-lg sign-up-btn" href="http://bit.ly/2ScXV6h" data-mode="popup"  data-submit-close-delay="5" target="_blank">Register </a>-->
-                    <!--            <a class="btn btn-default btn-lg sign-up-btn" href="http://bit.ly/2HIwTzs" target="_blank">Join Slack </a>-->
-                    <!--            <a class="btn btn-default btn-lg sign-up-btn" href="pages/live.html" target="_blank">Live</a>-->
-                </div>
-            </div>
+<!--        <div class="row">-->
+<!--            <div class="col-md-6">-->
+<!--                <img class="img-responsive" src="img/Bison_Hacks_2022_Building.png">-->
+<!--            </div>-->
+<!--            <div  class="col-md-6 text-center information">-->
+<!--                <br/>-->
+<!--                <br/>-->
+<!--                <br/>-->
+<!--                <div class="text-center">-->
+<!--                    <h1 style="text-transform: uppercase;">Bison Hacks</h1>-->
+<!--                    <h3 style="text-transform: uppercase;">Howard University School of Business</h3>-->
+<!--                    <h3 style="text-transform: uppercase;">March 18-19, 2022</h3>-->
+<!--                    <br/>-->
+<!--                    <ul class="list-inline banner-social-buttons">-->
+<!--                        <li><a href="http://bit.ly/2F32kR3"><i class="fab fa-twitter fa-3x" style="color: #BF2632 !important;"></i></a></li>-->
+<!--                        <li><a href="http://bit.ly/2soDfx2"><i class="fab fa-facebook fa-3x" style="color: #BF2632 !important;/"></i></a></li>-->
+<!--                        <li><a href="http://bit.ly/2CjzSrd"><i class="fab fa-instagram fa-3x" style="color: #BF2632 !important;"></i></a></li>-->
+<!--                    </ul>-->
+<!--                    <br/>-->
+<!--                    <a class="btn btn-default btn-lg sign-up-btn" href="https://www.eventbrite.com/e/bisonhacks-2022-7th-annual-howard-university-hackathon-tickets-140976152467">Register</a>-->
+<!--                    &lt;!&ndash;            <a class="btn btn-default btn-lg sign-up-btn" href="http://bit.ly/2ScXV6h" data-mode="popup"  data-submit-close-delay="5" target="_blank">Register </a>&ndash;&gt;-->
+<!--                    &lt;!&ndash;            <a class="btn btn-default btn-lg sign-up-btn" href="http://bit.ly/2HIwTzs" target="_blank">Join Slack </a>&ndash;&gt;-->
+<!--                    &lt;!&ndash;            <a class="btn btn-default btn-lg sign-up-btn" href="pages/live.html" target="_blank">Live</a>&ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--</section>-->
+
+
+<section id="info">
+<!--    <div class="container" style="color: black">-->
+        <div class="col-md-12">
+            <h1>Schedule</h1>
         </div>
+        <div class="col-md-6">
+            <table>
+                <tr>
+                    <th>Friday, March 18, 2022</th>
+                </tr>
+                <tr>
+                    <td><span>10:00 AM </span> |  Registration and Networking</td>
+                </tr>
+                <tr>
+                    <td><span>11:30 AM </span> | Open Ceremony (Sponsor Remarks)</td>
+                </tr>
+                <tr>
+                    <td><span>1:00 PM </span> | Coding Begins</td>
+                </tr>
+                <tr>
+                    <td><span>11:30 PM </span> | Platform Closes</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table>
+                <tr>
+                    <th>Saturday, March 19, 2022</th>
+                </tr>
+                <tr>
+                    <td><span>7:00 AM</span> | Platform Opens</td>
+                </tr>
+                <tr>
+                    <td><span>1:00 PM</span> | Projects Due</td>
+                </tr>
+                <tr>
+                    <td><span>1:30 PM</span> | Team Technical Check-In</td>
+                </tr>
+                <tr>
+                    <td><span>2:00 PM</span> | Project Presentations</td>
+                </tr>
+                <tr>
+                    <td><span>4:00 PM</span> | Judging Session</td>
+                </tr>
+                <tr>
+                    <td><span>5:00 PM</span> | Award Ceremony</td>
+                </tr>
+            </table>
+        </div>
+
+<!--    </div>-->
 </section>
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br id="info"/>
-<section id="schedule">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-right">
-                <h1>Schedule</h1>
-            </div>
-        </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <div class="row">
-            <div class="col-md-6 center">
-                <table>
-                    <tr>
-                        <th>Friday, March 19, 2022</th>
-                    </tr>
-                    <tr>
-                        <td><span>10:00 AM </span> |  Registration and Networking</td>
-                    </tr>
-                    <tr>
-                        <td><span>11:30 AM </span> | Open Ceremony (Sponsor Remarks)</td>
-                    </tr>
-                    <tr>
-                        <td><span>1:00 PM </span> | Coding Begins</td>
-                    </tr>
-                    <tr>
-                        <td><span>11:30 PM </span> | Platform Closes</td>
-                    </tr>
-                </table>
-            </div>
 
-            <div class="col-md-6 center">
-                <table>
-                    <tr>
-                        <th>Saturday, March 20, 2022</th>
-                    </tr>
-                    <tr>
-                        <td><span>7:00 AM</span> | Platform Opens</td>
-                    </tr>
-                    <tr>
-                        <td><span>1:00 PM</span> | Projects Due</td>
-                    </tr>
-                    <tr>
-                        <td><span>1:30 PM</span> | Team Technical Check-In</td>
-                    </tr>
-                    <tr>
-                        <td><span>2:00 PM</span> | Project Presentations</td>
-                    </tr>
-                    <tr>
-                        <td><span>4:00 PM</span> | Judging Session</td>
-                    </tr>
-                    <tr>
-                        <td><span>5:00 PM</span> | Award Ceremony</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
-<section>
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-12 text-left">
-                <h1>Prizes</h1>
-            </div>
-            <div class="col-lg-3" id="firstplace">
-                <i class="fas fa-trophy fa-5x"></i>
-                <h2>1st Place</h2>
-                <h3>$6,000</h3>
-            </div>
-            <div class="col-lg-3" id="secondplace">
-                <i class="fas fa-trophy fa-5x"></i>
+<!--<section id="schedule">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 text-right">-->
+<!--                <h1>Schedule</h1>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-6 center">-->
+<!--                <table>-->
+<!--                    <tr>-->
+<!--                        <th>Friday, March 19, 2022</th>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span>10:00 AM </span> |  Registration and Networking</td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span>11:30 AM </span> | Open Ceremony (Sponsor Remarks)</td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span>1:00 PM </span> | Coding Begins</td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span>11:30 PM </span> | Platform Closes</td>-->
+<!--                    </tr>-->
+<!--                </table>-->
+<!--            </div>-->
 
-                <h2>2nd Place</h2>
-                <h3>$3,500</h3>
+<!--            <div class="col-md-6 center">-->
+<!--                <table>-->
+<!--                    <tr>-->
+<!--                        <th>Saturday, March 20, 2022</th>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span>7:00 AM</span> | Platform Opens</td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span>1:00 PM</span> | Projects Due</td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span>1:30 PM</span> | Team Technical Check-In</td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span>2:00 PM</span> | Project Presentations</td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span>4:00 PM</span> | Judging Session</td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span>5:00 PM</span> | Award Ceremony</td>-->
+<!--                    </tr>-->
+<!--                </table>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
-            </div>
-            <div class="col-lg-3" id="thirdplace">
-                <i class="fas fa-trophy fa-5x"></i>
 
-                <h2>3rd Place </h2>
-                <h3>$2,000</h3>
-            </div>
-            <div class="col-lg-3" id="innovation">
-                <i class="fas fa-lightbulb fa-5x"></i>
-                <h2>Best Innovation</h2>
-                <h3>$1,000</h3>
-            </div>
-        </div>
-    </div>
-</section>
+<!--<section>-->
+<!--    <div class="container">-->
+<!--        <div class="row text-center">-->
+<!--            <div class="col-md-12 text-left">-->
+<!--                <h1>Prizes</h1>-->
+<!--            </div>-->
+<!--            <div class="col-lg-3" id="firstplace">-->
+<!--                <i class="fas fa-trophy fa-5x"></i>-->
+<!--                <h2>1st Place</h2>-->
+<!--                <h3>$6,000</h3>-->
+<!--            </div>-->
+<!--            <div class="col-lg-3" id="secondplace">-->
+<!--                <i class="fas fa-trophy fa-5x"></i>-->
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<section id="faq" data-spy="scroll">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-right">
-                <h1>FAQ</h1>
-            </div>
-            <div class="col-md-12">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="general-tab" data-toggle="tab" href="#general" role="tab" aria-controls="general" aria-selected="true">General</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="applying-tab" data-toggle="tab" href="#applying" role="tab" aria-controls="applying" aria-selected="false">Applying</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="rules-tab" data-toggle="tab" href="#rules" role="tab" aria-controls="rules" aria-selected="false">Rules</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="logistics-tab" data-toggle="tab" href="#logistics" role="tab" aria-controls="logistics" aria-selected="false">Logistics</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="mentor-tab" data-toggle="tab" href="#mentor" role="tab" aria-controls="mentor" aria-selected="false">Mentor</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="sponsorsinfo-tab" data-toggle="tab" href="#sponsorsinfo" role="tab" aria-controls="sponsorsinfo" aria-selected="false">Sponsors</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane active" id="general" role="tabpanel" aria-labelledby="general-tab">
-                        <!-- fade show active -->
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <label>What is a hackathon?</label>
-                                <p>A hackathon is a weekend long event where you go all the way from idea to prototype. At the end of BisonHacks, you will pitch your app, website, or whatever prototype you dreamed up, and compete for prizes! Hackathons are a great place to learn quickly and create something awesome.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>How much does it cost?</label>
-                                <p>BisonHacks is completely free for all registered participants! The food is free and all the awesome swag is free.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>Will there be food?</label>
-                                <p>Absolutely! We have four delicious meals planned with plenty of snacks in between to keep you going for 24 hours.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>What should I bring?</label>
-                                <p>Bring you, your computer, computer charger, toiletries (toothbrush and toothpaste), and anything else for your hack.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>This is my first hackathon!</label>
-                                <p>You're more than welcome at BisonHacks! We will have workshops during the event and mentors to help you through any troubles. So no matter what your skill level is, we will provide the resources to help you learn.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>Do you have a Code of Conduct?</label>
-                                <p>Yes! Check out our <a href="../docs/Code%20Of%20Conduct.pdf">Code of Conduct</a>.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="applying" role="tabpanel" aria-labelledby="applying-tab">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <label> Who can attend this hackathon?</label>
-                                <p>Bison Hacks is open to Howard University students and anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>Are walk-ins welcomed?</label>
-                                <p>Due to the location we are only allowed to have attendees who have registered for the hackathon. Therefore, if you are interested attending this event please register at this<a href=""> link</a>.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>Are graduate students welcomed to attend?</label>
-                                <p>Howard University graduate student's are welcomed to register for this hackathon.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="rules" role="tabpanel" aria-labelledby="rules-tab">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <label>How many students per a team?</label>
-                                <p>There can be a maximum of 5 students for a team.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>What if I can't find a team?</label>
-                                <p>That is fine, you have the option to work alone but we highly recommend that you work in a team.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>What are the requirements for a team?</label>
-                                <p>Teams are encouraged to have a mix of business, engineering, and design oriented students. Diversity is encouraged. However, teams are required to choose a name.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>What are the requirementes for the project?</label>
-                                <p>Team projects can be brainstormed beforehand, but code <b>MUST</b> be written at the event only. <b>Code cannot be brought in from outside the event</b> . Cheating of any kind will not be tolerated. The project must contain a README within the repository that describes the project.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>What are some tools that we can use within our project?</label>
-                                <p>You can use any tool, API, service or language for your team project.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>How long are presentations for our project?</label>
-                                <p>A 3 min presentation is required during judging, explaining and demonstrating the team’s application. In addition 1 minute will be allowed for questions.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>Where do we submit our project?</label>
-                                <p>All projects must be submitted into our Bison Hacks DevPost by March 20, 2022 at 1:30PM.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>What format can our team project be?</label>
-                                <p>Your project can be a mobile application, web application or IoT project. The project must fit into the theme set for the event.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>What are the items that are not permitted in our projects?</label>
-                                <p>Projects must not contain any advertisement or solicitation. Projects must not contain anything that is or may be construed as:</p>
-                                <ul>
-                                    <li>Threatening, harassing, degrading or hateful.</li>
-                                    <li>Defamatory.</li>
-                                    <li>Fraudulent or tortious.</li>
-                                    <li>Obscene, indecent or otherwise objectionable; or (v) protected by copyright, trademark or other proprietary right without the express prior consent of the owner of such right</li>
-                                </ul>
-                                <p>Projects must not contain any material that would give rise to criminal or civil liability or that encourages conduct that constitutes a criminal offense; and Projects must otherwise comply in all respects with these Rules and the Policies.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>How many judges will be at this hackathon?</label>
-                                <p>We will have 4-5 judges for this hackathon. Our judges will be key members within the DC Tech Industry. Their backgrounds will cover technology, design, marketing and entrepreneurship. To learn more about the judges check them out here.</p>
-                            </div>
-                            <div class="col-lg-12">
-                                <label>What are the judging criterias?</label>
-                                <ul>
-                                    <li><b>Business Model.</b> Outside of technical impressiveness in the project, during this hackathon judges will be looking for how teams communicate customer validation (Who are your users?) and acquisition strategy (How will you attract your users?). Those two pillars will help validate the idea.</li>
+<!--                <h2>2nd Place</h2>-->
+<!--                <h3>$3,500</h3>-->
 
-                                    <li><b>Impact.</b> Our theme this year is to create a solution that will help improve the betterment of the DMV community. In this category we are looking for key factors that shows how the team's idea is scalable and give a clear measure as to how thier solution makes an impact on the user's life.</li>
+<!--            </div>-->
+<!--            <div class="col-lg-3" id="thirdplace">-->
+<!--                <i class="fas fa-trophy fa-5x"></i>-->
 
-                                    <li><b>Technical.</b> In the midst of the given 24 hours the judges will be looking for an established minimum viable product and a working prototype . This can range from a web application, mobile application or an IoT.</li>
+<!--                <h2>3rd Place </h2>-->
+<!--                <h3>$2,000</h3>-->
+<!--            </div>-->
+<!--            <div class="col-lg-3" id="innovation">-->
+<!--                <i class="fas fa-lightbulb fa-5x"></i>-->
+<!--                <h2>Best Innovation</h2>-->
+<!--                <h3>$1,000</h3>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
-                                    <li><b>Design and User Experience.</b> The teams final minimum viable product and prototype should achieve an engaging and memorable user experience. This means having a clear interface that is intuitive for users that come from different backgrounds.</li>
 
-                                    <li><b>Presentation.</b> Teams will be rated base off presentation layout and articulation of their solution. This means how well was the team able to communicate their target audience, problems they are solving and how their product is the solution to that problem.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="logistics" role="tabpanel" aria-labelledby="logistics-tab">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <label>Will there be free parking provided?</label>
-                                <p>Unfortunately, there won't be free parking but only street parking.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>Is there any travel reimbursement?</label>
-                                <p>Unfortunately, we will not be offering individual travel reimbursement this year.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>What are the closest Metro's to this location?</label>
-                                <p>To travel to this location the closest metros are Shaw and U Street.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>Will there be other activities other than hacking at this event?</label>
-                                <p>Of course! This year, our hacker experience team has planned a bunch of fun events for attendees to relax. Stay tuned for more info! We will have a small activity in the midst of the event.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>Do I have to be there for the entire hackathon?</label>
-                                <p>Due to the security of the building it would be ideal that you stay for the entire event. However, if you need to leave and comeback please inform the Hackathon Organizers.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="mentor" role="tabpanel" aria-labelledby="mentor-tab">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <label>I am interested in being a mentor, how do I sign up to be one?</label>
-                                <p>That is great! We welcome any help! To sign up as a mentor you can simply select "Mentor" on the form within the registration link <a href="">here</a>.</p>
-                            </div>
-                            <div class="col-lg-6">
-                                <label>Do I have to have a technological background in order to be a mentor?</label>
-                                <p>Although, it is ideal but it is not a requirement. We welcome anyone who have experience in entrepreneurship, marketing, finance and technology.</p>
-                            </div>
-                            <div class="col-lg-12">
-                                <label>What are the roles of a mentor?</label>
-                                <p>The role of a "Tech" or "Business" mentor is to be floating resources for the duration of the hackathon. This means helping teams define workflow, brainstorm ideas, problem solve and develop the final presentation. Mentors are free to communicate amongst themselves on questions of observations that occur. As organizers, we would be glad to gain some insight on technical issues, hackathon dynamics, or other Bison Hacks materials. Here are a few pointers to keep in mind as a Bison Hacks mentor:</p>
-                                <ul>
-                                    <li><b>Be available for participants.</b> Participants will contact mentors that they believe will be able to address their questions. Responding to teams questions is not a 24/7 responsibility, but please do check the communication channels and get back to the participants in a reasonable time frame. Within the Eventbrite link, there are 4-hour time slots, that mentors can choose.</li>
-                                    <li><b>Offer what you know.</b> It is best to acknowledge that you are not well-versed in the subject than to point teams down a sub-optimal path. If you are unable to answer the question it is fine giving the team some online resources or refer them to another mentor that may specialize in the area of interest.</li>
-                                    <li><b>You are a mentor.</b> It may be tempting but mentors are not allowed to join or contribute to a team. That includes writing a few lines of code or writing a couple bullets on their pitch decks. Providing pointers, references to examples and advice about design concepts are all in-bounds of the role of a mentor.</li>
-                                    <li><b>Share questions and answers.</b> Bison Hacks is a learning hackathon and we feel that every team can benefit from questions asked and answered on team-to-mentor interactions. We strongly encourage to summarize questions/answers for posting to the whole group of participants. As we approach the kick-off date, the Bison Hacks Team will announce how information can be shared amongst participants and how mentors should publish to the communication channels.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+<!--<section id="faq" data-spy="scroll">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 text-right">-->
+<!--                <h1>FAQ</h1>-->
+<!--            </div>-->
+<!--            <div class="col-md-12">-->
+<!--                <ul class="nav nav-tabs" id="myTab" role="tablist">-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link active" id="general-tab" data-toggle="tab" href="#general" role="tab" aria-controls="general" aria-selected="true">General</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" id="applying-tab" data-toggle="tab" href="#applying" role="tab" aria-controls="applying" aria-selected="false">Applying</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" id="rules-tab" data-toggle="tab" href="#rules" role="tab" aria-controls="rules" aria-selected="false">Rules</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" id="logistics-tab" data-toggle="tab" href="#logistics" role="tab" aria-controls="logistics" aria-selected="false">Logistics</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" id="mentor-tab" data-toggle="tab" href="#mentor" role="tab" aria-controls="mentor" aria-selected="false">Mentor</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" id="sponsorsinfo-tab" data-toggle="tab" href="#sponsorsinfo" role="tab" aria-controls="sponsorsinfo" aria-selected="false">Sponsors</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <div class="tab-content" id="myTabContent">-->
+<!--                    <div class="tab-pane active" id="general" role="tabpanel" aria-labelledby="general-tab">-->
+<!--                        &lt;!&ndash; fade show active &ndash;&gt;-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>What is a hackathon?</label>-->
+<!--                                <p>A hackathon is a weekend long event where you go all the way from idea to prototype. At the end of BisonHacks, you will pitch your app, website, or whatever prototype you dreamed up, and compete for prizes! Hackathons are a great place to learn quickly and create something awesome.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>How much does it cost?</label>-->
+<!--                                <p>BisonHacks is completely free for all registered participants! The food is free and all the awesome swag is free.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>Will there be food?</label>-->
+<!--                                <p>Absolutely! We have four delicious meals planned with plenty of snacks in between to keep you going for 24 hours.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>What should I bring?</label>-->
+<!--                                <p>Bring you, your computer, computer charger, toiletries (toothbrush and toothpaste), and anything else for your hack.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>This is my first hackathon!</label>-->
+<!--                                <p>You're more than welcome at BisonHacks! We will have workshops during the event and mentors to help you through any troubles. So no matter what your skill level is, we will provide the resources to help you learn.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>Do you have a Code of Conduct?</label>-->
+<!--                                <p>Yes! Check out our <a href="../docs/Code%20Of%20Conduct.pdf">Code of Conduct</a>.-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="tab-pane fade" id="applying" role="tabpanel" aria-labelledby="applying-tab">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label> Who can attend this hackathon?</label>-->
+<!--                                <p>Bison Hacks is open to Howard University students and anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>Are walk-ins welcomed?</label>-->
+<!--                                <p>Due to the location we are only allowed to have attendees who have registered for the hackathon. Therefore, if you are interested attending this event please register at this<a href=""> link</a>.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>Are graduate students welcomed to attend?</label>-->
+<!--                                <p>Howard University graduate student's are welcomed to register for this hackathon.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="tab-pane fade" id="rules" role="tabpanel" aria-labelledby="rules-tab">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>How many students per a team?</label>-->
+<!--                                <p>There can be a maximum of 5 students for a team.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>What if I can't find a team?</label>-->
+<!--                                <p>That is fine, you have the option to work alone but we highly recommend that you work in a team.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>What are the requirements for a team?</label>-->
+<!--                                <p>Teams are encouraged to have a mix of business, engineering, and design oriented students. Diversity is encouraged. However, teams are required to choose a name.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>What are the requirementes for the project?</label>-->
+<!--                                <p>Team projects can be brainstormed beforehand, but code <b>MUST</b> be written at the event only. <b>Code cannot be brought in from outside the event</b> . Cheating of any kind will not be tolerated. The project must contain a README within the repository that describes the project.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>What are some tools that we can use within our project?</label>-->
+<!--                                <p>You can use any tool, API, service or language for your team project.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>How long are presentations for our project?</label>-->
+<!--                                <p>A 3 min presentation is required during judging, explaining and demonstrating the team’s application. In addition 1 minute will be allowed for questions.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>Where do we submit our project?</label>-->
+<!--                                <p>All projects must be submitted into our Bison Hacks DevPost by March 20, 2022 at 1:30PM.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>What format can our team project be?</label>-->
+<!--                                <p>Your project can be a mobile application, web application or IoT project. The project must fit into the theme set for the event.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>What are the items that are not permitted in our projects?</label>-->
+<!--                                <p>Projects must not contain any advertisement or solicitation. Projects must not contain anything that is or may be construed as:</p>-->
+<!--                                <ul>-->
+<!--                                    <li>Threatening, harassing, degrading or hateful.</li>-->
+<!--                                    <li>Defamatory.</li>-->
+<!--                                    <li>Fraudulent or tortious.</li>-->
+<!--                                    <li>Obscene, indecent or otherwise objectionable; or (v) protected by copyright, trademark or other proprietary right without the express prior consent of the owner of such right</li>-->
+<!--                                </ul>-->
+<!--                                <p>Projects must not contain any material that would give rise to criminal or civil liability or that encourages conduct that constitutes a criminal offense; and Projects must otherwise comply in all respects with these Rules and the Policies.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>How many judges will be at this hackathon?</label>-->
+<!--                                <p>We will have 4-5 judges for this hackathon. Our judges will be key members within the DC Tech Industry. Their backgrounds will cover technology, design, marketing and entrepreneurship. To learn more about the judges check them out here.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-12">-->
+<!--                                <label>What are the judging criterias?</label>-->
+<!--                                <ul>-->
+<!--                                    <li><b>Business Model.</b> Outside of technical impressiveness in the project, during this hackathon judges will be looking for how teams communicate customer validation (Who are your users?) and acquisition strategy (How will you attract your users?). Those two pillars will help validate the idea.</li>-->
 
-                    <div class="tab-pane fade" id="sponsorsinfo" role="tabpanel" aria-labelledby="sponsorsinfo-tab">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <label>How do I sponsor this event?</label>
-                                <p>First! Thank you for wishing to sponsor our hackathon! To sponsor our event you can view our sponsorship package here and send an email to bisonhacks@gmail.com.</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <label>What does the funds cover for this event?</label>
-                                <p>The funds goes towards food, prizes and the swag for the hackathon. We go into more detail within our sponsorship package <a href="../docs/BisonHacks%202020%20Sponsorship%20Information.pdf">here</a>.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!--                                    <li><b>Impact.</b> Our theme this year is to create a solution that will help improve the betterment of the DMV community. In this category we are looking for key factors that shows how the team's idea is scalable and give a clear measure as to how thier solution makes an impact on the user's life.</li>-->
 
-<section id="sponsors">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1>Sponsors</h1>
-            </div>
-        </div>
+<!--                                    <li><b>Technical.</b> In the midst of the given 24 hours the judges will be looking for an established minimum viable product and a working prototype . This can range from a web application, mobile application or an IoT.</li>-->
 
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <img src="img/GM_Foundation.png" style="padding-bottom: 1px !important;"/>
-            </div>
-        </div>
+<!--                                    <li><b>Design and User Experience.</b> The teams final minimum viable product and prototype should achieve an engaging and memorable user experience. This means having a clear interface that is intuitive for users that come from different backgrounds.</li>-->
 
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <img src="img/boeing.png" style="padding-bottom: 1px !important; max-width: 50% !important;"/>
-            </div>
-        </div>
+<!--                                    <li><b>Presentation.</b> Teams will be rated base off presentation layout and articulation of their solution. This means how well was the team able to communicate their target audience, problems they are solving and how their product is the solution to that problem.</li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="tab-pane fade" id="logistics" role="tabpanel" aria-labelledby="logistics-tab">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>Will there be free parking provided?</label>-->
+<!--                                <p>Unfortunately, there won't be free parking but only street parking.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>Is there any travel reimbursement?</label>-->
+<!--                                <p>Unfortunately, we will not be offering individual travel reimbursement this year.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>What are the closest Metro's to this location?</label>-->
+<!--                                <p>To travel to this location the closest metros are Shaw and U Street.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>Will there be other activities other than hacking at this event?</label>-->
+<!--                                <p>Of course! This year, our hacker experience team has planned a bunch of fun events for attendees to relax. Stay tuned for more info! We will have a small activity in the midst of the event.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>Do I have to be there for the entire hackathon?</label>-->
+<!--                                <p>Due to the security of the building it would be ideal that you stay for the entire event. However, if you need to leave and comeback please inform the Hackathon Organizers.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="tab-pane fade" id="mentor" role="tabpanel" aria-labelledby="mentor-tab">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-6">-->
+<!--                                <label>I am interested in being a mentor, how do I sign up to be one?</label>-->
+<!--                                <p>That is great! We welcome any help! To sign up as a mentor you can simply select "Mentor" on the form within the registration link <a href="">here</a>.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-6">-->
+<!--                                <label>Do I have to have a technological background in order to be a mentor?</label>-->
+<!--                                <p>Although, it is ideal but it is not a requirement. We welcome anyone who have experience in entrepreneurship, marketing, finance and technology.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-12">-->
+<!--                                <label>What are the roles of a mentor?</label>-->
+<!--                                <p>The role of a "Tech" or "Business" mentor is to be floating resources for the duration of the hackathon. This means helping teams define workflow, brainstorm ideas, problem solve and develop the final presentation. Mentors are free to communicate amongst themselves on questions of observations that occur. As organizers, we would be glad to gain some insight on technical issues, hackathon dynamics, or other Bison Hacks materials. Here are a few pointers to keep in mind as a Bison Hacks mentor:</p>-->
+<!--                                <ul>-->
+<!--                                    <li><b>Be available for participants.</b> Participants will contact mentors that they believe will be able to address their questions. Responding to teams questions is not a 24/7 responsibility, but please do check the communication channels and get back to the participants in a reasonable time frame. Within the Eventbrite link, there are 4-hour time slots, that mentors can choose.</li>-->
+<!--                                    <li><b>Offer what you know.</b> It is best to acknowledge that you are not well-versed in the subject than to point teams down a sub-optimal path. If you are unable to answer the question it is fine giving the team some online resources or refer them to another mentor that may specialize in the area of interest.</li>-->
+<!--                                    <li><b>You are a mentor.</b> It may be tempting but mentors are not allowed to join or contribute to a team. That includes writing a few lines of code or writing a couple bullets on their pitch decks. Providing pointers, references to examples and advice about design concepts are all in-bounds of the role of a mentor.</li>-->
+<!--                                    <li><b>Share questions and answers.</b> Bison Hacks is a learning hackathon and we feel that every team can benefit from questions asked and answered on team-to-mentor interactions. We strongly encourage to summarize questions/answers for posting to the whole group of participants. As we approach the kick-off date, the Bison Hacks Team will announce how information can be shared amongst participants and how mentors should publish to the communication channels.</li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
 
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <img src="img/excella.png" style="max-width: 55% !important; padding-top: 40px !important;"/>
-            </div>
-            <div class="col-md-6 text-center">
-                <img src="img/accenture.png" style="max-width: 75% !important;"/>
-            </div>
-        </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <img src="img/at&t.png" style="padding-bottom: 1px !important; max-width: 50% !important;"/>
-            </div>
-        </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <img src="img/cigna.png" style="padding-bottom: 1px !important; max-width: 50% !important;"/>
-            </div>
-            <div class="col-md-6 text-center">
-                <img src="img/fiserv.png"/>
-            </div>
-        </div>
-    </div>
-</section>
+<!--                    <div class="tab-pane fade" id="sponsorsinfo" role="tabpanel" aria-labelledby="sponsorsinfo-tab">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>How do I sponsor this event?</label>-->
+<!--                                <p>First! Thank you for wishing to sponsor our hackathon! To sponsor our event you can view our sponsorship package here and send an email to bisonhacks@gmail.com.</p>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-4">-->
+<!--                                <label>What does the funds cover for this event?</label>-->
+<!--                                <p>The funds goes towards food, prizes and the swag for the hackathon. We go into more detail within our sponsorship package <a href="../docs/BisonHacks%202020%20Sponsorship%20Information.pdf">here</a>.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
-<section>
-    <div class="container text-center">
-        <h1>Contact Us!</h1>
-        <p style="font-size: 25px;">Email bisonhacks@gmail.com</p>
-    </div>
-</section>
+<!--<section id="sponsors">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-12 text-center">-->
+<!--                <h1>Sponsors</h1>-->
+<!--            </div>-->
+<!--        </div>-->
 
-<footer>
-    <div class="container text-center">
-        <img src="img/howardu_clocktower_logo.png" style="max-width: 30%;"/>
-        <br/>
-        <br/>
-        <br/>
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 text-center">-->
+<!--                <img src="img/GM_Foundation.png" style="padding-bottom: 1px !important;"/>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 text-center">-->
+<!--                <img src="img/boeing.png" style="padding-bottom: 1px !important; max-width: 50% !important;"/>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-6 text-center">-->
+<!--                <img src="img/excella.png" style="max-width: 55% !important; padding-top: 40px !important;"/>-->
+<!--            </div>-->
+<!--            <div class="col-md-6 text-center">-->
+<!--                <img src="img/accenture.png" style="max-width: 75% !important;"/>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 text-center">-->
+<!--                <img src="img/at&t.png" style="padding-bottom: 1px !important; max-width: 50% !important;"/>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <br/>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-6 text-center">-->
+<!--                <img src="img/cigna.png" style="padding-bottom: 1px !important; max-width: 50% !important;"/>-->
+<!--            </div>-->
+<!--            <div class="col-md-6 text-center">-->
+<!--                <img src="img/fiserv.png"/>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--    <div class="container text-center">-->
+<!--        <h1>Contact Us!</h1>-->
+<!--        <p style="font-size: 25px;">Email bisonhacks@gmail.com</p>-->
+<!--    </div>-->
+<!--</section>-->
+    <div class="footer">
+        <img src="img/howardu_clocktower_logo.png" class="footer-image"/>
         <p>Copyright &copy; Howard University Department of Computer Information Systems 2022</p>
     </div>
-</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
-    var map = new mapboxgl.Map({
-        style: 'mapbox://styles/mapbox/light-v9',
-        center: [-77.021023,38.921995],
-        zoom: 16.5,
-        pitch: 45,
-        bearing: -17.6,
-        container: 'map'
-    });
+<!--<script>-->
+<!--    mapboxgl.accessToken = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';-->
+<!--    var map = new mapboxgl.Map({-->
+<!--        style: 'mapbox://styles/mapbox/light-v9',-->
+<!--        center: [-77.021023,38.921995],-->
+<!--        zoom: 16.5,-->
+<!--        pitch: 45,-->
+<!--        bearing: -17.6,-->
+<!--        container: 'map'-->
+<!--    });-->
 
-    map.addControl(new mapboxgl.NavigationControl());
+<!--    map.addControl(new mapboxgl.NavigationControl());-->
 
-    map.on('load', function() {
-        map.loadImage('img/bh2020thumb.png', function(error, image) {
-            if (error) throw error;
-            map.addImage('BisonHead', image);
-            map.addLayer({
-                "id": "points",
-                "type": "symbol",
-                "source": {
-                    "type": "geojson",
-                    "data": {
-                        "type": "FeatureCollection",
-                        "features": [{
-                            "type": "Feature",
-                            "geometry": {
-                                "type": "Point",
-                                "coordinates": [-77.021023,38.921995]
-                            }
-                        }]
-                    }
-                },
-                "layout": {
-                    "icon-image": "BisonHead",
-                    "icon-size": 0.25
-                }
-            });
-        });
-
-
-        // Insert the layer beneath any symbol layer.
-        var layers = map.getStyle().layers;
-
-        var labelLayerId;
-        for (var i = 0; i < layers.length; i++) {
-            if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
-                labelLayerId = layers[i].id;
-                break;
-            }
-        }
-
-        map.addLayer({
-            'id': '3d-buildings',
-            'source': 'composite',
-            'source-layer': 'building',
-            'filter': ['==', 'extrude', 'true'],
-            'type': 'fill-extrusion',
-            'minzoom': 15,
-            'paint': {
-                'fill-extrusion-color': '#BF2632',
-
-                // use an 'interpolate' expression to add a smooth transition effect to the
-                // buildings as the user zooms in
-                'fill-extrusion-height': [
-                    "interpolate", ["linear"], ["zoom"],
-                    15, 0,
-                    15.05, ["get", "height"]
-                ],
-                'fill-extrusion-base': [
-                    "interpolate", ["linear"], ["zoom"],
-                    15, 0,
-                    15.05, ["get", "min_height"]
-                ],
-                'fill-extrusion-opacity': .9
-            }
-        }, labelLayerId);
+<!--    map.on('load', function() {-->
+<!--        map.loadImage('img/bh2020thumb.png', function(error, image) {-->
+<!--            if (error) throw error;-->
+<!--            map.addImage('BisonHead', image);-->
+<!--            map.addLayer({-->
+<!--                "id": "points",-->
+<!--                "type": "symbol",-->
+<!--                "source": {-->
+<!--                    "type": "geojson",-->
+<!--                    "data": {-->
+<!--                        "type": "FeatureCollection",-->
+<!--                        "features": [{-->
+<!--                            "type": "Feature",-->
+<!--                            "geometry": {-->
+<!--                                "type": "Point",-->
+<!--                                "coordinates": [-77.021023,38.921995]-->
+<!--                            }-->
+<!--                        }]-->
+<!--                    }-->
+<!--                },-->
+<!--                "layout": {-->
+<!--                    "icon-image": "BisonHead",-->
+<!--                    "icon-size": 0.25-->
+<!--                }-->
+<!--            });-->
+<!--        });-->
 
 
-    });
+<!--        // Insert the layer beneath any symbol layer.-->
+<!--        var layers = map.getStyle().layers;-->
 
-</script>
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/106c5dd89377004b7eb57efeb/36a763cc59f01709ac27af7cf.js");</script>
+<!--        var labelLayerId;-->
+<!--        for (var i = 0; i < layers.length; i++) {-->
+<!--            if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {-->
+<!--                labelLayerId = layers[i].id;-->
+<!--                break;-->
+<!--            }-->
+<!--        }-->
+
+<!--        map.addLayer({-->
+<!--            'id': '3d-buildings',-->
+<!--            'source': 'composite',-->
+<!--            'source-layer': 'building',-->
+<!--            'filter': ['==', 'extrude', 'true'],-->
+<!--            'type': 'fill-extrusion',-->
+<!--            'minzoom': 15,-->
+<!--            'paint': {-->
+<!--                'fill-extrusion-color': '#BF2632',-->
+
+<!--                // use an 'interpolate' expression to add a smooth transition effect to the-->
+<!--                // buildings as the user zooms in-->
+<!--                'fill-extrusion-height': [-->
+<!--                    "interpolate", ["linear"], ["zoom"],-->
+<!--                    15, 0,-->
+<!--                    15.05, ["get", "height"]-->
+<!--                ],-->
+<!--                'fill-extrusion-base': [-->
+<!--                    "interpolate", ["linear"], ["zoom"],-->
+<!--                    15, 0,-->
+<!--                    15.05, ["get", "min_height"]-->
+<!--                ],-->
+<!--                'fill-extrusion-opacity': .9-->
+<!--            }-->
+<!--        }, labelLayerId);-->
+
+
+<!--    });-->
+
+<!--</script>-->
+<!--<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/106c5dd89377004b7eb57efeb/36a763cc59f01709ac27af7cf.js");</script>-->
 </body>
 
 </html>
