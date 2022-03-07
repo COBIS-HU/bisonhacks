@@ -5,7 +5,7 @@ body {
 }
 
 /** 2022 Navbar **/
-.nav ul {
+.navie ul {
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
     list-style-type: none;
@@ -19,15 +19,15 @@ body {
     z-index: 1000;
 }
 
-.nav li {
+.navie li {
     float: left;
 }
 
-.nav li:last-child {
+.navie li:last-child {
     border-right: none;
 }
 
-.nav li a {
+.navie li a {
     display: block;
     color: white;
     text-align: center;
@@ -35,14 +35,14 @@ body {
     text-decoration: none;
 }
 
-.nav li a:hover:not(.active) {
+.navie li a:hover:not(.active) {
     background-color: #BF2632;
     list-style-type: none;
     text-decoration: none;
     color: white;
 }
 
-.nav .active {
+.navie .active {
     background-color: #BF2632;
     color:white;
 }
@@ -137,7 +137,7 @@ body {
     color: #004AAD;
 }
 
-/** 2022 Info **/
+/** 2022 Prizes **/
 .section-prizes {
     position: relative;
     padding: 500px 50px 50px 250px !important;
@@ -153,6 +153,114 @@ body {
     padding-top: 25px !important;
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
+}
+
+#firstplace h2 {
+    color: black !important;
+    font-size: larger !important;
+}
+
+#firstplace h3 {
+    color: black !important;
+}
+
+#secondplace h2 {
+    color: black !important;
+    font-size: larger !important;
+}
+
+#secondplace h3 {
+    color: black !important;
+}
+
+#thirdplace h2 {
+    color: black !important;
+    font-size: larger !important;
+}
+
+#thirdplace h3 {
+    color: black !important;
+}
+
+#innovation h2 {
+    color: #000000 !important;
+    font-size: larger !important;
+}
+
+#innovation h3 {
+    color: #000000 !important;
+}
+
+#secondplace .fa-5x {
+    font-size: 10em !important;
+    color: #C0C0C0 !important;
+}
+
+#thirdplace .fa-5x {
+    font-size: 10em !important;
+    color: #cd7f32 !important;
+}
+
+#innovation .fa-5x {
+    font-size: 10em !important;
+    color: #F5E095 !important;
+}
+
+#firstplace .fa-5x {
+    font-size: 10em !important;
+    color: #D4AF37 !important;
+}
+
+
+
+/** 2022 FAQ **/
+.section-faq {
+    position: relative;
+    padding: 600px 50px 50px 250px !important;
+}
+
+#faq {
+    font-family: "Ubuntu", sans-serif;
+}
+
+#faq h1 {
+    color: #BF2632;
+    font-size: 56px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#faq .col-md-12 {
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #004AAD;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.nav .active {
+    /*background-color: #004AAD;*/
+    color:white;
+}
+
+.nav a {
+    background-color: #004AAD;
+    color:white;
+}
+
+#faq .col-lg-4 {
+    padding-top: 40px;
+}
+
+#faq .col-lg-12 {
+    padding-top: 40px;
+}
+
+#faq .col-lg-6 {
+    padding-top: 40px;
 }
 
 /*h1, h2 {*/
@@ -311,10 +419,6 @@ body {
 
 /*svg {color: #F45254 !important;}*/
 
-#firstplace .fa-5x {
-    font-size: 10em !important;
-    color: #D4AF37 !important;
-}
 
 /*#firstplace {*/
 /*    background-color: #BF2632;*/
@@ -339,56 +443,6 @@ body {
 /*    padding-top: 190px;*/
 /*}*/
 
-#firstplace h2 {
-    color: black !important;
-    font-size: larger !important;
-}
-
-#firstplace h3 {
-    color: black !important;
-}
-
-#secondplace h2 {
-    color: black !important;
-    font-size: larger !important;
-}
-
-#secondplace h3 {
-    color: black !important;
-}
-
-#thirdplace h2 {
-    color: black !important;
-    font-size: larger !important;
-}
-
-#thirdplace h3 {
-    color: black !important;
-}
-
-#innovation h2 {
-    color: #000000 !important;
-    font-size: larger !important;
-}
-
-#innovation h3 {
-    color: #000000 !important;
-}
-
-#secondplace .fa-5x {
-    font-size: 10em !important;
-    color: #C0C0C0 !important;
-}
-
-#thirdplace .fa-5x {
-    font-size: 10em !important;
-    color: #cd7f32 !important;
-}
-
-#innovation .fa-5x {
-    font-size: 10em !important;
-    color: #F5E095 !important;
-}
 
 /*#themes p{*/
 /*    font-size: 16px;*/
