@@ -1,5 +1,5 @@
 body {
-    margin-bottom: 300px;
+    margin-bottom: 1000px !important;
     min-height: 400px;
     clear: both;
 }
@@ -65,7 +65,7 @@ body {
     padding-bottom: 15px;
 }
 
-/** 2022 Into **/
+/** 2022 Intro **/
 #intro {
     padding-top: 75px;
     font-family: "Ubuntu", sans-serif;
@@ -110,6 +110,51 @@ body {
     font-family: "Ubuntu", sans-serif;
     border-bottom-color: white;
 }
+
+
+/** 2022 Info **/
+.section-info {
+    position: relative;
+    padding: 750px 50px 50px 250px !important;
+}
+
+
+#info h1 {
+    color: #BF2632;
+    font-size: 56px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#info .col-md-6 {
+    padding-top: 25px !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+}
+
+#info th {
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #004AAD;
+}
+
+/** 2022 Info **/
+.section-prizes {
+    position: relative;
+    padding: 500px 50px 50px 250px !important;
+}
+
+#prizes h1 {
+    color: #BF2632;
+    font-size: 56px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#prizes .col-lg-3 {
+    padding-top: 25px !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+}
+
 /*h1, h2 {*/
 /*    font-family: 'Open Sans', cursive !important;*/
 /*    font-weight: bolder !important;*/
@@ -266,10 +311,10 @@ body {
 
 /*svg {color: #F45254 !important;}*/
 
-/*#firstplace .fa-5x {*/
-/*    font-size: 10em !important;*/
-/*    color: #D4AF37 !important;*/
-/*}*/
+#firstplace .fa-5x {
+    font-size: 10em !important;
+    color: #D4AF37 !important;
+}
 
 /*#firstplace {*/
 /*    background-color: #BF2632;*/
@@ -294,55 +339,56 @@ body {
 /*    padding-top: 190px;*/
 /*}*/
 
-/*#firstplace h2 {*/
-/*    color: #ffffff !important;*/
-/*    font-size: larger !important;*/
-/*}*/
+#firstplace h2 {
+    color: black !important;
+    font-size: larger !important;
+}
 
-/*#firstplace h3 {*/
-/*    color: #ffffff !important;*/
-/*}*/
+#firstplace h3 {
+    color: black !important;
+}
 
-/*#secondplace h2 {*/
-/*    color: #ffffff !important;*/
-/*    font-size: larger !important;*/
-/*}*/
+#secondplace h2 {
+    color: black !important;
+    font-size: larger !important;
+}
 
-/*#secondplace h3 {*/
-/*    color: #ffffff !important;*/
-/*}*/
+#secondplace h3 {
+    color: black !important;
+}
 
-/*#thirdplace h2 {*/
-/*    color: #ffffff !important;*/
-/*    font-size: larger !important;*/
-/*}*/
+#thirdplace h2 {
+    color: black !important;
+    font-size: larger !important;
+}
 
-/*#thirdplace h3 {*/
-/*    color: #ffffff !important;*/
-/*}*/
+#thirdplace h3 {
+    color: black !important;
+}
 
-/*#innovation h2 {*/
-/*    color: #000000 !important;*/
-/*    font-size: larger !important;*/
-/*}*/
+#innovation h2 {
+    color: #000000 !important;
+    font-size: larger !important;
+}
 
-/*#innovation h3 {*/
-/*    color: #000000 !important;*/
-/*}*/
+#innovation h3 {
+    color: #000000 !important;
+}
 
-/*#secondplace .fa-5x {*/
-/*    font-size: 10em !important;*/
-/*    color: #C0C0C0 !important;*/
-/*}*/
+#secondplace .fa-5x {
+    font-size: 10em !important;
+    color: #C0C0C0 !important;
+}
 
-/*#thirdplace .fa-5x {*/
-/*    font-size: 10em !important;*/
-/*    color: #cd7f32 !important;*/
-/*}*/
+#thirdplace .fa-5x {
+    font-size: 10em !important;
+    color: #cd7f32 !important;
+}
 
-/*#innovation .fa-5x {*/
-/*    font-size: 10em !important;*/
-/*}*/
+#innovation .fa-5x {
+    font-size: 10em !important;
+    color: #F5E095 !important;
+}
 
 /*#themes p{*/
 /*    font-size: 16px;*/
