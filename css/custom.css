@@ -118,7 +118,7 @@ body {
 /** 2022 Info **/
 .section-info {
     position: relative;
-    padding: 750px 50px 50px 250px !important;
+    padding: 250px 50px 50px 250px !important;
 }
 
 
@@ -219,7 +219,7 @@ body {
 /** 2022 FAQ **/
 .section-faq {
     position: relative;
-    padding: 600px 50px 50px 250px !important;
+    padding: 700px 50px 50px 250px !important;
 }
 
 #faq {
